@@ -1611,13 +1611,23 @@ button {
   .request__form-btn {
     font-size: 18px;
     height: 3rem;
+    margin: 0 auto;
     /* right: 50%;
     -webkit-transform: translate(50%, 0);
         -ms-transform: translate(50%, 0);
             transform: translate(50%, 0); */
   }
+  .request__item .request__form-btn{
+    margin-top: 30px;
+  }
+  .question{
+    margin-bottom: 40px;
+  }
   .question__item-answer {
     padding: 40px 20px 45px 45px;
+  }
+  .quality__items{
+    margin-bottom: 25px;
   }
   .compilation__gallery {
     margin-bottom: 64px;
@@ -1887,6 +1897,9 @@ button {
   }
   .question__item-answer {
     padding: 17px 10px 17px 15px;
+  }
+  .compilation{
+    margin-top: 100px;
   }
   .compilation__title {
     font-size: 27px;
